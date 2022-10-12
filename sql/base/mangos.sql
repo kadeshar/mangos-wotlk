@@ -625,7 +625,7 @@ INSERT INTO `command` VALUES
 ('banlist character',3,'Syntax: .banlist character $Name\r\nSearches the banlist for a character name pattern. Pattern required.'),
 ('banlist ip',3,'Syntax: .banlist ip [$Ip]\r\nSearches the banlist for a IP pattern or show full list of IP bans.'),
 ('bot add',0,'Syntax: .bot add [$botname]\r\nAdd bot to world.'),
-('bot self',0,'Syntax: .bot self\r\nEnable or disable playerbot AI on current logged player. Client side only.'),
+('bot self',2,'Syntax: .bot self\r\nEnable or disable playerbot AI on current logged player. Client side only.'),
 ('cast',3,'Syntax: .cast #spellid [triggered]\r\n  Cast #spellid to selected target. If no target selected cast to self. If \'trigered\' or part provided then spell casted with triggered flag.'),
 ('cast back',3,'Syntax: .cast back #spellid [triggered]\r\n  Selected target will cast #spellid to your character. If \'trigered\' or part provided then spell casted with triggered flag.'),
 ('cast dist',3,'Syntax: .cast dist #spellid [#dist [triggered]]\r\n  You will cast spell to pint at distance #dist. If \'trigered\' or part provided then spell casted with triggered flag. Not all spells can be casted as area spells.'),

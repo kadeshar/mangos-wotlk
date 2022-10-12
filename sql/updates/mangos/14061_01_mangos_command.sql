@@ -4,4 +4,4 @@ DELETE FROM command WHERE name IN ('bot add', 'bot self');
 
 INSERT INTO `command`(`name`, `security`, `help`) VALUES
 ('bot add',0,'Syntax: .bot add [$botname]\r\nAdd bot to world.'),
-('bot self',0,'Syntax: .bot self\r\nEnable or disable playerbot AI on current logged player. Client side only.');
+('bot self',2,'Syntax: .bot self\r\nEnable or disable playerbot AI on current logged player. Client side only.');
