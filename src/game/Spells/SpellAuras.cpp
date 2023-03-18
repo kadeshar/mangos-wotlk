@@ -4019,6 +4019,7 @@ void Aura::HandleAuraModShapeshift(bool apply, bool Real)
 
     Unit* target = GetTarget();
 
+    m_modifier.m_amount = 0;
     if (ssEntry->modelID_A)
     {
         // i will asume that creatures will always take the defined model from the dbc
